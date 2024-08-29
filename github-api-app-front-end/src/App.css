@@ -1,0 +1,122 @@
+/* Scale: 
+10, 12 , 14, 16, 18, 20, 24, 28, 32, 
+36, 40, 48, 56, 64, 72, 80, 96
+*/
+
+.App--container {
+  background-color: aliceblue;
+  margin: 96px;
+}
+
+.RepoDisplay--container,
+.UserDisplay--container {
+  border-bottom: solid;
+}
+
+.UserDisplay--container-row,
+.RepoDisplay--container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.UserDisplay--container-column,
+.RepoDisplay--container-column {
+  width: 50%;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  gap: 16px;
+}
+
+.UserDisplay--span,
+.RepoDisplay--span {
+  font-weight: bold;
+}
+
+.UserDisplay--heading,
+.RepoDisplay--heading {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.UserDisplay--list,
+.RepoDisplay--list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.UserDisplay--list-item,
+.RepoDisplay--list-item {
+  width: fit-content;
+  font-size: 24px;
+}
+
+.UserDisplay--list-item:hover {
+  color: darkcyan;
+  cursor: pointer;
+}
+
+.UserDisplay--alien-link,
+.RepoDisplay--alien-link {
+  width: fit-content;
+  color: brown;
+}
+
+.UserDisplay--alien-link:hover,
+.RepoDisplay--alien-link:hover {
+  color: red;
+}
+
+.UserDisplay--image {
+  height: 250px;
+  width: fit-content;
+  border-radius: 100%;
+}
+
+.UserSearch--container {
+  padding-bottom: 32px;
+  border-bottom: solid;
+}
+
+.App--heading {
+  font-size: 96px;
+  border-bottom: solid;
+  padding-bottom: 32px;
+}
+
+.UserSearch--subheading {
+  font-size: 48px;
+}
+
+.UserSearch--form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.UserSearch--label {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.UserSearch--input {
+  font-size: 20px;
+}
+
+.UserSearch--button {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 12px;
+  background-color: rgb(84, 195, 195);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.UserSearch--button:hover {
+  background-color: darkcyan;
+}

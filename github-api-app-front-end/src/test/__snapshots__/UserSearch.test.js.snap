@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<div
+  className="UserSearch--container"
+>
+  <h3
+    className="UserSearch--subheading"
+  >
+    Search User:
+  </h3>
+  <form
+    className="UserSearch--form"
+    onSubmit={[Function]}
+  >
+    <label
+      className="UserSearch--label"
+    >
+      User name:
+    </label>
+    <input
+      className="UserSearch--input"
+      onChange={[Function]}
+      required={true}
+      type="text"
+      value=""
+    />
+    <button
+      className="UserSearch--button"
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</div>
+`;
+
+exports[`UserSearch renders correctly 1`] = `
+<div
+  className="UserSearch--container"
+>
+  <h3
+    className="UserSearch--subheading"
+  >
+    Search User:
+  </h3>
+  <form
+    className="UserSearch--form"
+    onSubmit={[Function]}
+  >
+    <label
+      className="UserSearch--label"
+    >
+      User name:
+    </label>
+    <input
+      className="UserSearch--input"
+      onChange={[Function]}
+      required={true}
+      type="text"
+      value=""
+    />
+    <button
+      className="UserSearch--button"
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</div>
+`;
