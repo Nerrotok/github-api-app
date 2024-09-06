@@ -7,9 +7,9 @@ This was built with React.js, Express and Node.
 
 ## Table of Contents
 
-1.[**Setting Up**](#setting-up)
-2.[**Usage**](#usage)
-3.[**Credits**](#credits)
+1. [**Setting Up**](#setting-up)
+2. [**Usage**](#usage)
+3. [**Credits**](#credits)
 
 # Setting Up
 
